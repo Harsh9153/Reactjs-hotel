@@ -1,0 +1,80 @@
+.det-img{
+    border: 1px solid rgb(230, 225, 225) ;
+    padding: 25px;
+    border-radius: 5px;
+}
+.det-info{
+    padding-left: 15px !important;
+    width:600px !important;
+}
+.det-title{
+    border: 1px solid rgb(221, 214, 214);
+    border-radius: 5px;
+    width:660px !important;
+
+}
+.ti{
+    padding: 25px !important;
+}
+.ti h3{
+    margin-top: 6px;
+
+}
+.ti h2{
+color: gray;
+font-size: 29px;
+margin-bottom: 17px !important;
+}
+.ti h1{
+    margin-top: 6px;
+    text-transform: uppercase;
+
+}
+.btnn{
+    background-color: wheat !important;
+	color: gray !important;
+	border: none;
+	padding: 15px 30px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 20px;
+	transition: all 0.3s;
+    width: 40%;
+    height: 50px;
+	&.shadow:hover {
+		box-shadow: 0 0 30px rgba(5px 5px 10px) !important;
+        border-color: white;
+        transform: scale(0.9) !important;
+	}
+    &.wiggle:hover {
+		animation: wiggle 0.5s;
+        box-shadow: 5px 5px 10px;
+	}
+}
+.btn-buy{
+    margin-top: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+@keyframes wiggle {
+	0%,
+	100% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-5deg);
+	}
+	75% {
+		transform: rotate(5deg);
+	}
+}
+
+.btn-buy select{
+	width: 125px !important;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.qua{
+	display: flex;
+	justify-content: center;
+}

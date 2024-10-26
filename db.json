@@ -1,0 +1,18 @@
+{
+  "hotelList": [
+    {
+      "id": "0464",
+      "username": "harsh9153",
+      "email": "Harshdesai600@gmail.com",
+      "password": "123456",
+      "cpass": "123456"
+    },
+    {
+      "id": "8241",
+      "username": "foram",
+      "email": "f@gmail.com",
+      "password": "123456",
+      "cpass": "123456"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+.container {
+    max-width: 1320px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0px auto;
+    align-items: center;
+    display: flex;
+  }
+
+  .start-75 {
+    left: 40% !important;
+  }
+
+  /* body {
+    background-image: url(img/mountain-3d-wallpaper-8.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+
+  .box-2:hover {
+    border: 1px solid black;
+    color: #b3d9ff;
+  }
+
+  .nav-item:hover {
+    font-weight: 400;
+
+  }
+
+  .box-1 {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    max-height: auto;
+
+  }
+
+  nav ul li a {
+    padding: 10px;
+    display: block;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+  }
+
+  nav ul li a:hover {
+    color: #e97f7f !important;
+    transform: scaleY(0.8);
+    transform: scaleX(0.8);
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    transition: all 0.9s ease-in;
+    transform: scaleX(0.8);
+    transform: scaleY(0.8);
+  }
+
+  nav ul li:hover a::after {
+    width: 100%;
+  }
+
+  /* nav ul li:nth-child(1) a::after {
+    background-color: #ef9a9a;
+   
+  }
+
+  nav ul li:nth-child(2) a::after {
+    background-color: rgb(231, 146, 146);
+  }
+
+  nav ul li:nth-child(3) a::after {
+    background-color: #e57373;
+  } */
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .carousel-control-next-icon {
+    margin-left: 50px;
+  }
+  .page{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    
+  }
+  .page button{
+    margin-left: 20px;
+    margin-right: 9px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none ;
+  }
+.page button:hover{
+  box-shadow: 0 0 30px rgba(5px 5px 10px) !important;
+  border-color: white;
+  transform: scale(0.9) !important;
+  background-color: black;
+  color: wheat;
+}
+.page-main{
+  padding: 20px;
+  padding-right: 30px;
+  border-radius: 49px;
+  margin-top: 30px;
+ 
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset, rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.singup{
+  border: none;
+  padding-left: 30px;
+  height: 10px;
+  padding-bottom: 37px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 15px;
+}

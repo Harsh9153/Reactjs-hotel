@@ -1,0 +1,10 @@
+
+a:-webkit-any-link{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cards-main:hover{
+    box-shadow: 5px 5px 20px !important;
+    
+}
